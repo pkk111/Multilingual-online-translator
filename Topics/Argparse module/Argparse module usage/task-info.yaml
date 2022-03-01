@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: To use the <b>arguments</b> by their <b>name</b> after parsing.
+- text: To work with <b>file system</b> from the <b>command-line</b>.
+- text: To pass the <b>arguments</b> through the <b>command-line</b>.
+- text: To print <b>user-friendly descriptions</b> of program usage and arguments.
+- text: To conduct a lingustic <b>syntactic analysis</b> of a given string.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11390#comment
+status: Solved
+record: -1
